@@ -13,4 +13,3 @@ def filter_dataframe(dataframe, start_date, end_date):
     dataframe.set_index("Date", inplace=True)
     
     return dataframe.loc[start_date:end_date]
-  
